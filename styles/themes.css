@@ -12,6 +12,8 @@
       linear-gradient(180deg, #007F0C 0%, #004306 100%);
   --main-color: #00CC14;
   --bg-color: #000;
+  --main-wgth: 400;
+  --card-title-wght: 700;
   --button-hover-color: 0, 204, 20;
   --heart__contour: var(--main-color);
   --heart__main-body: none;
@@ -21,21 +23,13 @@
   --difference-color: var(--main-color);
   
 
-  .contour {
+  /* .contour {
     fill: var(--heart__contour);
   }
 
   .sparks {
     fill: var(--heart__sparks);
     opacity: 0;
-  }
-
-  /* .button__text::before {
-    background-color: var(--main-color);
-  }
-
-  .button__save::before {
-    background-color: var(--main-color);
   } */
 }
 
@@ -47,6 +41,8 @@
   --button-hover-color: 0, 0, 0;
   --main-color: #000;
   --bg-color: #fff;
+  --main-wgth: 400;
+  --card-title-wght: 700;
   --heart__contour: var(--main-color);
   --heart__main-body: none;
   --heart__core: none;
@@ -54,21 +50,13 @@
   --heart__active: var(--heart__sparks);
   --difference-color: var(--bg-color);
 
-  .contour {
+  /* .contour {
     fill: var(--heart__contour);
   }
 
   .sparks {
     fill: var(--heart__sparks);
     opacity: 0;
-  }
-
-  /* .button__text::before {
-    background-color: var(--bg-color);
-  }
-
-  .button__save::before {
-    background-color: var(--bg-color);
   } */
 }
 
@@ -80,6 +68,8 @@
         linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
     --main-color: #000;
     --bg-color: #fff;
+    --main-wgth: 400;
+    --card-title-wght: 700;
     --button-hover-color: 0, 0, 0;
     --heart__contour: var(--main-color);
     --heart__main-body: none;

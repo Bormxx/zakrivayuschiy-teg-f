@@ -23,26 +23,6 @@
     }
 }
 
-@keyframes lightening {
-    from {
-        color: rgba(var(--button-hover-color), 1);
-    }
-
-    to {
-        color: rgba(var(--button-hover-color), 0.6);
-    }
-}
-
-@keyframes underlining {
-    from {
-        transform: scaleX(0);
-    }
-    
-    to {
-        transform: scaleX(1);
-    }
-}
-
 @keyframes sparkling {
     from {
         opacity: 0;
@@ -55,10 +35,12 @@
 
 @keyframes scaleing {
     from {
+        transform-origin: 50%;
         transform: scale(1);
     }
 
     to {
+        transform-origin: 50%;
         transform: scale(1.5);
     }
 }
