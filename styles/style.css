@@ -343,7 +343,7 @@
 }
 
 .filter7 {
-  filter:grayscale(50%), invert(1), brightness(150%);
+  filter: grayscale(50%), invert(1), brightness(150%);
 }
 
 .popup {
