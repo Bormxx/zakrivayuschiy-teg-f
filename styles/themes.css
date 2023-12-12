@@ -12,8 +12,8 @@
       linear-gradient(180deg, #007F0C 0%, #004306 100%);
   --main-color: #00CC14;
   --bg-color: #000;
-  --main-wgth: 400;
-  --card-title-wght: 700;
+  --main-wgth: 465;
+  --card-title-wght: 785;
   --button-hover-color: 0, 204, 20;
   --heart__contour: var(--main-color);
   --heart__main-body: none;
@@ -21,16 +21,6 @@
   --heart__sparks: #f00;
   --heart__active: var(--heart__sparks);
   --difference-color: var(--main-color);
-  
-
-  /* .contour {
-    fill: var(--heart__contour);
-  }
-
-  .sparks {
-    fill: var(--heart__sparks);
-    opacity: 0;
-  } */
 }
 
 :root.theme-light {
@@ -49,15 +39,6 @@
   --heart__sparks: #f00;
   --heart__active: var(--heart__sparks);
   --difference-color: var(--bg-color);
-
-  /* .contour {
-    fill: var(--heart__contour);
-  }
-
-  .sparks {
-    fill: var(--heart__sparks);
-    opacity: 0;
-  } */
 }
 
 @media (prefers-color-scheme: light) {
@@ -77,22 +58,5 @@
     --heart__sparks: #f00;
     --heart__active: #f00;
     --difference-color: var(--bg-color);
-
-    .contour {
-    fill: var(--heart__contour);
-    }
-
-    .sparks {
-      fill: var(--heart__sparks);
-      opacity: 0;
-    }
-
-    /* .button__text::before {
-      background-color: var(--bg-color);
-    }
-
-    .button__save::before {
-      background-color: var(--bg-color);
-    } */
   }
 }
